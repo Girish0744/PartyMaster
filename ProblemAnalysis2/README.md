@@ -57,12 +57,12 @@ Bootstrap (for basic styling and responsiveness)
 
 
 ## ⚙️ How to Setup and Run Locally
-1.)  Clone the Repository
+1.)  **Clone the Repository**
 ```bash
 git clone https://github.com/Girish0744/PartyMaster.git
 ```
 
-2.) Update Connection String
+2.) **Update Connection String**
 Open appsettings.json and configure your local SQL Server and SMTP:
 ```bash
 "ConnectionStrings": {
@@ -76,17 +76,17 @@ Open appsettings.json and configure your local SQL Server and SMTP:
 }
 ```
 
-3.) Run Database Migrations
+3.) **Run Database Migrations**
 ```bash
 Update-Database
 ```
 
-4.) Run the App
+4.) **Run the App**
 ```bash
 dotnet run
 ```
 
-5.) Open in Browser
+5.) **Open in Browser**
 ```bash
 https://localhost:PORT/
 ```
