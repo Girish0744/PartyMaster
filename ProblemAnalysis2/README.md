@@ -92,22 +92,22 @@ https://localhost:PORT/
 ```
 
 ## 📧 Email Setup (Important!)
--Create an App Password in Gmail for SMTP access.
--Use that App Password in appsettings.json.
--Email invitations will include an RSVP link for guests to respond.
+- Create an App Password in Gmail for SMTP access.
+- Use that App Password in appsettings.json.
+- Email invitations will include an RSVP link for guests to respond.
 
 ## 🎉 Usage Flow
--Create a Party → Add Party Details.
--Manage Party → Add Guests.
--Send Invitations → Emails sent with RSVP link.
--Guests Respond → RSVP link (Yes/No).
--Track Status → See live updates of RSVP responses.
+- Create a Party → Add Party Details.
+- Manage Party → Add Guests.
+- Send Invitations → Emails sent with RSVP link.
+- Guests Respond → RSVP link (Yes/No).
+- Track Status → See live updates of RSVP responses.
 
 ## ✨ Sample Screens
--All Parties page with Edit/Manage options.
--Manage Party with invitation summary and RSVP tracking.
--RSVP form (Yes/No) from email link.
--Thank You page after responding.
+- All Parties page with Edit/Manage options.
+- Manage Party with invitation summary and RSVP tracking.
+- RSVP form (Yes/No) from email link.
+- Thank You page after responding.
 
 ## 👨‍💻 Author
 Girish Bhuteja
