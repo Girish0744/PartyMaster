@@ -58,7 +58,7 @@ Bootstrap (for basic styling and responsiveness)
 
 ## ⚙️ How to Setup and Run Locally
 ###1.  Clone the Repository
-'''bash
+```bash
 git clone https://github.com/Girish0744/PartyMaster.git
 
 2.) Update Connection String
