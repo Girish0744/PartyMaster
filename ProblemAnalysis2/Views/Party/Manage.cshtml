@@ -1,0 +1,68 @@
+﻿<!--Girish Bhuteja
+    Bachelors of Computer Science (Honors)
+    Conestoga College  -->
+
+@model ProblemAnalysis2.Models.Party
+
+<h2>Manage Party: @Model.Description</h2>
+<p><strong>Event Date:</strong> @Model.EventDate.ToShortDateString()</p>
+<p><strong>Location:</strong> @Model.Location</p>
+<h3>Invitation Summary</h3>
+<ul>
+    <li><b>Not Sent:</b> @Model.Invitations.Count(i => i.Status == InvitationStatus.InviteNotSent)</li>
+    <li><b>Sent:</b> @Model.Invitations.Count(i => i.Status == InvitationStatus.InviteSent)</li>
+    <li><b>Responded Yes:</b> @Model.Invitations.Count(i => i.Status == InvitationStatus.RespondedYes)</li>
+    <li><b>Responded No:</b> @Model.Invitations.Count(i => i.Status == InvitationStatus.RespondedNo)</li>
+</ul>
+
+<h3>Invitations</h3>
+<table>
+    <tr><th>Guest Name</th><th>Email</th><th>Status</th></tr>
+    @foreach (var invitation in Model.Invitations)
+    {
+        <tr>
+            <td>@invitation.GuestName</td>
+            <td>@invitation.GuestEmail</td>
+            <td>
+                @if (invitation.Status == InvitationStatus.InviteNotSent)
+                {
+                    <span style="color: red;">Invitation Not Sent</span>
+                }
+                else if (invitation.Status == InvitationStatus.InviteSent)
+                {
+                    <span style="color: blue;">Invitation Sent</span>
+                }
+                else if (invitation.Status == InvitationStatus.RespondedYes)
+                {
+                    <span style="color: green;">Responded Yes</span>
+                }
+                else if (invitation.Status == InvitationStatus.RespondedNo)
+                {
+                    <span style="color: gray;">Responded No</span>
+                }
+            </td>
+        </tr>
+    }
+</table>
+
+
+
+
+<h3>Add New Invitation</h3>
+<form asp-action="AddInvitation" asp-controller="Invitation" method="post">
+    <input type="hidden" name="partyId" value="@Model.Id" />
+    <label>Guest Name:</label>
+    <input type="text" name="guestName" required />
+    <label>Guest Email:</label>
+    <input type="email" name="guestEmail" required />
+    <button type="submit">Add</button>
+</form>
+
+<h3>Send Invitations</h3>
+<form asp-controller="Invitation" asp-action="SendInvitationsByPartyId" method="post">
+    <input type="hidden" name="id" value="@Model.Id" />
+    <button type="submit" class="btn btn-primary">Send Invitations</button>
+</form>
+
+
+<a asp-action="Index">Back to Parties</a>

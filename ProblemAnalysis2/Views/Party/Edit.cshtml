@@ -1,0 +1,50 @@
+﻿<!--Girish Bhuteja
+    Bachelors of Computer Science (Honors)
+    Conestoga College  -->
+
+@model ProblemAnalysis2.Models.Party
+
+<h2>Edit a party</h2>
+
+<form asp-action="Edit">
+    <input type="hidden" asp-for="Id" />
+
+    <!-- Description Input -->
+    <label>Description</label>
+    <input type="text" asp-for="Description" class="form-control" required />
+
+    <!-- Date Picker for Event Date -->
+    <label>Date of party</label>
+    <input type="date" asp-for="EventDate" class="form-control" required />
+
+    <!-- Location Input -->
+    <label>Location</label>
+    <input type="text" asp-for="Location" class="form-control" required />
+
+    <br />
+    <button type="submit" class="btn btn-success">Save Changes</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+
+<!-- Delete Party Section -->
+<h3>Danger Zone</h3>
+<p><strong>Warning:</strong> Deleting this party will also remove all associated invitations.</p>
+
+<form asp-action="Delete" method="post" onsubmit="return confirm('Are you sure you want to delete this party? This action cannot be undone.');">
+    <input type="hidden" name="id" value="@Model.Id" />
+    <button type="submit" class="btn btn-danger">Delete Party</button>
+</form>
+
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            
+            let eventDateInput = document.querySelector("[asp-for='EventDate']");
+            if (eventDateInput) {
+                let currentDate = new Date(eventDateInput.value);
+                let formattedDate = currentDate.toISOString().split('T')[0];
+                eventDateInput.value = formattedDate;
+            }
+        });
+    </script>
+}

@@ -1,0 +1,18 @@
+﻿<!--Girish Bhuteja
+    Bachelors of Computer Science (Honors)
+    Conestoga College  -->
+
+@model ProblemAnalysis2.Models.Invitation
+
+<h2>RSVP for @Model.GuestName</h2>
+
+<p>You have been invited to an event. Will you attend?</p>
+
+<form method="post" action="@Url.Action("Submit", "RSVP")">
+    <input type="hidden" name="invitationId" value="@Model.Id" />
+
+    <input type="radio" name="response" value="yes" required /> Yes
+    <input type="radio" name="response" value="no" required /> No
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
