@@ -47,13 +47,13 @@ Bootstrap (for basic styling and responsiveness)
 
 
 ## 📂 Project Structure
--**/Controllers**        --> All Controllers (PartyController, InvitationController, RSVPController)
--**/Models**           --> Data Models (Party, Invitation, Enums)
--**/Views**              --> Razor Views for Pages (Party, Shared, RSVP, Home)
--**/wwwroot**           --> Static Files (CSS, JS)
--**/Migrations**         --> EF Core Database Migrations
--**Program.cs**          --> Application Startup and Services Configuration
--**appsettings.json**    --> Database and SMTP configurations
+- **/Controllers**        --> All Controllers (PartyController, InvitationController, RSVPController)
+- **/Models**           --> Data Models (Party, Invitation, Enums)
+- **/Views**              --> Razor Views for Pages (Party, Shared, RSVP, Home)
+- **/wwwroot**           --> Static Files (CSS, JS)
+- **/Migrations**         --> EF Core Database Migrations
+- **Program.cs**          --> Application Startup and Services Configuration
+- **appsettings.json**    --> Database and SMTP configurations
 
 
 ## ⚙️ How to Setup and Run Locally
