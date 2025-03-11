@@ -34,8 +34,10 @@ graph TD
     Controllers -->|Send Emails| SMTP["Gmail SMTP Server"]
     Controllers -->|RSVP Links| UI
 
+   ```
 
-🛠️ Technologies Used
+
+## 🛠️ Technologies Used
 ASP.NET Core MVC (C#)
 Entity Framework Core (Code First + Migrations)
 SQL Server LocalDB
@@ -44,7 +46,7 @@ Gmail SMTP for sending email invitations
 Bootstrap (for basic styling and responsiveness)
 
 
-📂 Project Structure
+## 📂 Project Structure
 /Controllers        --> All Controllers (PartyController, InvitationController, RSVPController)
 /Models             --> Data Models (Party, Invitation, Enums)
 /Views              --> Razor Views for Pages (Party, Shared, RSVP, Home)
@@ -54,7 +56,7 @@ Program.cs          --> Application Startup and Services Configuration
 appsettings.json    --> Database and SMTP configurations
 
 
-⚙️ How to Setup and Run Locally
+## ⚙️ How to Setup and Run Locally
 1.) Clone the Repository
 git clone https://github.com/Girish0744/PartyMaster.git
 
@@ -79,26 +81,26 @@ dotnet run
 5.) Open in Browser
 https://localhost:PORT/
 
-📧 Email Setup (Important!)
+## 📧 Email Setup (Important!)
 Create an App Password in Gmail for SMTP access.
 Use that App Password in appsettings.json.
 Email invitations will include an RSVP link for guests to respond.
 
-🎉 Usage Flow
+## 🎉 Usage Flow
 Create a Party → Add Party Details.
 Manage Party → Add Guests.
 Send Invitations → Emails sent with RSVP link.
 Guests Respond → RSVP link (Yes/No).
 Track Status → See live updates of RSVP responses.
 
-✨ Sample Screens
+## ✨ Sample Screens
 All Parties page with Edit/Manage options.
 Manage Party with invitation summary and RSVP tracking.
 RSVP form (Yes/No) from email link.
 Thank You page after responding.
 
-👨‍💻 Author
+## 👨‍💻 Author
 Girish Bhuteja
 
-📜 License
+## 📜 License
 This project is for educational purposes and part of Problem Analysis 2 Assignment. All rights reserved.
