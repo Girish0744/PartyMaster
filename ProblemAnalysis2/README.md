@@ -57,12 +57,14 @@ Bootstrap (for basic styling and responsiveness)
 
 
 ## ⚙️ How to Setup and Run Locally
-###1.  Clone the Repository
+1.)  Clone the Repository
 ```bash
 git clone https://github.com/Girish0744/PartyMaster.git
+```
 
 2.) Update Connection String
 Open appsettings.json and configure your local SQL Server and SMTP:
+```bash
 "ConnectionStrings": {
   "DefaultConnection": "Server=(localdb)\\ProjectModels;Database=PartyDBGBhuteja5688;Trusted_Connection=True;MultipleActiveResultSets=true"
 },
@@ -72,15 +74,22 @@ Open appsettings.json and configure your local SQL Server and SMTP:
   "Username": "your-email@gmail.com",
   "Password": "your-app-password"
 }
+```
 
 3.) Run Database Migrations
+```bash
 Update-Database
+```
 
 4.) Run the App
+```bash
 dotnet run
+```
 
 5.) Open in Browser
+```bash
 https://localhost:PORT/
+```
 
 ## 📧 Email Setup (Important!)
 Create an App Password in Gmail for SMTP access.
