@@ -105,6 +105,10 @@ https://localhost:PORT/
 
 ## ✨ Sample Screens
 - All Parties page with Edit/Manage options.
+
+![image](https://github.com/user-attachments/assets/afb442dc-1897-482b-b0ee-be490df376eb)
+
+
 - Manage Party with invitation summary and RSVP tracking.
 - RSVP form (Yes/No) from email link.
 - Thank You page after responding.
