@@ -104,10 +104,31 @@ https://localhost:PORT/
 - Track Status → See live updates of RSVP responses.
 
 ## ✨ Sample Screens
+
+- Main Screen
+
+![image](https://github.com/user-attachments/assets/c20d18b5-870b-4c50-b0f1-93ded5b71148)
+
+
 - All Parties page with Edit/Manage options.
+
+![image](https://github.com/user-attachments/assets/afb442dc-1897-482b-b0ee-be490df376eb)
+
+
 - Manage Party with invitation summary and RSVP tracking.
+
+![image](https://github.com/user-attachments/assets/3ca4a415-6d85-4442-8acc-a227b4a9b443)
+
+
 - RSVP form (Yes/No) from email link.
+
+![image](https://github.com/user-attachments/assets/4f717880-eac3-483b-b7c2-6e4f10e5f8b0)
+
+
 - Thank You page after responding.
+
+  ![image](https://github.com/user-attachments/assets/4998e1da-464e-4236-b104-095dab1b582c)
+
 
 ## 👨‍💻 Author
 Girish Bhuteja
