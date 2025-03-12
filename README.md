@@ -132,11 +132,12 @@ https://localhost:PORT/
 
 ## 👨‍💻 Author
 Girish Bhuteja
-- Emial : [girishbhuteja07@gmail.com]
+- Emial : [Email](girishbhuteja07@gmail.com)
 
 ## 🎥 Demo Video
 
-[![Watch the video](https://img.youtube.com/vi/[YOUR_VIDEO_ID](https://youtu.be/xeg00u98xzk)/maxresdefault.jpg)](https://www.youtube.com/watch?v=[YOUR_VIDEO_ID](https://youtu.be/xeg00u98xzk))
+Watch the full demo here: [YouTube Demo](https://youtu.be/xeg00u98xzk)
+
 
 
 ## 📜 License
