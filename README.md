@@ -9,8 +9,8 @@ This app helps you **create and manage parties**, **invite guests via email**, a
 
 ## 👨‍💻 Author
 Girish Bhuteja
-📧 [Email](mailto:girishbhuteja07@gmail.com@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/girishbhuteja0744/)
+- 📧 [Email](mailto:girishbhuteja07@gmail.com@gmail.com)  
+- 🔗 [LinkedIn](https://www.linkedin.com/in/girishbhuteja0744/)
 
 ## 🚀 Features
 
