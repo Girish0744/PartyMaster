@@ -12,6 +12,9 @@ Girish Bhuteja
 - 📧 [Email](mailto:girishbhuteja07@gmail.com@gmail.com)  
 - 🔗 [LinkedIn](https://www.linkedin.com/in/girishbhuteja0744/)
 
+## 🎥 Demo Video
+Watch the full demo here: [YouTube Demo](https://youtu.be/xeg00u98xzk)
+
 ## 🚀 Features
 
 - ✅ Create and Manage Parties (CRUD operations).
@@ -136,8 +139,6 @@ https://localhost:PORT/
 
 
 
-## 🎥 Demo Video
-Watch the full demo here: [YouTube Demo](https://youtu.be/xeg00u98xzk)
 
 
 
