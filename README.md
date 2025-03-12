@@ -7,6 +7,11 @@ This app helps you **create and manage parties**, **invite guests via email**, a
 
 ---
 
+## 👨‍💻 Author
+Girish Bhuteja
+📧 [Email](mailto:girishbhuteja07@gmail.com@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/girishbhuteja0744/)
+
 ## 🚀 Features
 
 - ✅ Create and Manage Parties (CRUD operations).
@@ -130,12 +135,8 @@ https://localhost:PORT/
   ![image](https://github.com/user-attachments/assets/4998e1da-464e-4236-b104-095dab1b582c)
 
 
-## 👨‍💻 Author
-Girish Bhuteja
-- Emial : [Email](girishbhuteja07@gmail.com)
 
 ## 🎥 Demo Video
-
 Watch the full demo here: [YouTube Demo](https://youtu.be/xeg00u98xzk)
 
 
