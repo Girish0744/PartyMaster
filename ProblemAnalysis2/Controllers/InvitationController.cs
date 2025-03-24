@@ -68,9 +68,9 @@ namespace ProblemAnalysis2.Controllers
         {
             try
             {
-                var fromAddress = new MailAddress("girishbhuteja07@gmail.com", "Girish Bhuteja");
+                var fromAddress = new MailAddress("your email id", "Name");
                 var toAddress = new MailAddress(to);
-                const string fromPassword = "ajleddniswpplito"; // Use your correct App Password
+                const string fromPassword = "use your own password"; // Use your correct App Password
 
                 var smtp = new SmtpClient("smtp.gmail.com")
                 {
